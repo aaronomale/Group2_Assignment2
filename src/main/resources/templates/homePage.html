@@ -8,27 +8,34 @@
     .container {
         text-align: center;
     }
-    .image {
-        display: inline-block;
-        margin: 10px;
-        cursor: pointer;
+    table {
+        margin: 0 auto;
+    }
+    td {
+        padding: 10px;
+        width: 200px;
+        height: auto;
     }
 </style>
 </head>
 <body>
 <div class="container">
-    <div class="image">
-        <a href=""><img src="/placeHolderImage.jpg" alt="Selfie"></a>
-        <p>Aaron Omale</p>
-    </div>
-    <div class="image">
-        <a href=""><img src="/placeHolderImage.jpg" alt="Selfie"></a>
-        <p>Jordan Sidneydunu</p>
-    </div>
-    <div class="image">
-        <a href=""><img src="/placeHolderImage.jpg" alt="Selfie"></a>
-        <p>Dilraj Manj</p>
-    </div>
+    <table>
+        <tr>
+            <td>
+                <a href="@{/details/Aaron}"><img src="/Aaron.jpg" alt="Selfie"></a>
+                <p>Aaron Omale</p>
+            </td>
+            <td>
+                <a href="@{/details/Jorden}"><img src="/Jorden.jpg" alt="Selfie"></a>
+                <p>Jordan Sidneydunu</p>
+            </td>
+            <td>
+                <a href="@{/details/Dilraj}"><img src="/Dilraj.jpg" alt="Selfie"></a>
+                <p>Dilraj Manj</p>
+            </td>
+        </tr>
+    </table>
     <p>We are Group 2, We will try our best</p>
 </div>
 
