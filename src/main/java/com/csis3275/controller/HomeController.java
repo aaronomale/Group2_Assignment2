@@ -32,6 +32,14 @@ public class HomeController {
 		return "dilraj_dma_19";
 	}
 	
+	@GetMapping("/Jordan")
+	public String JordanController(Model model) {
+		Student_group2 jordanObject = new Student_group2("Jordan", "Sidney-Dunu", "As a Computing Studies and Information Systems Diploma student at Douglas College,"
+				+ " I am immersed in the world of technology and software development. Alongside my studies, I am actively engaged in the real estate industry, where I contribute to technological advancements within the sector. With a passion for both software development and real estate,"
+				+ " I am dedicated to leveraging technology to innovate and enhance processes within the dynamic realm of real estate.");
+		model.addAttribute("jordan", jordanObject);
+		return "jordan_jsi_90";
+	}
 
 
 }
