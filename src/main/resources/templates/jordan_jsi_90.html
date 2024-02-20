@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Jordan - 300341590</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px;
+			width: 80%;
+        }
+
+        .description {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: 200px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="description">
+        <h2>
+			<span th:text="${jordan.firstName}"></span> 
+			<span th:text="${jordan.lastName}"></span>
+		</h2>
+        <p th:text="${jordan.description}"></p>
+    </div>
+    <img th:src="@{/Jordan.jpg}" alt="Selfie"/>
+</div>
+
+</body>
+</html>
