@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.csis3275","l":"Group2Assignment2Application"},{"p":"com.csis3275.controller","l":"HomeController"},{"p":"com.csis3275.model_group2","l":"Student_group2"}];updateSearchResults();
