@@ -22,6 +22,7 @@ public class HomeController {
 		return "aaron_aom_43";
 	}
 	
+
 	@GetMapping("/Dilraj")
 	public String DilrajController(Model model) {
 		Student_group2 dilrajObject = new Student_group2("Dilraj", "Manj", "A simple Computing Studies & Information Systems student at Douglas College."
@@ -31,6 +32,6 @@ public class HomeController {
 		return "dilraj_dma_19";
 	}
 	
-	
+
 
 }
