@@ -22,5 +22,15 @@ public class HomeController {
 		return "aaron_aom_43";
 	}
 	
+	@GetMapping("/Dilraj")
+	public String DilrajController(Model model) {
+		Student_group2 dilrajObject = new Student_group2("Dilraj", "Manj", "A simple Computing Studies & Information Systems student at Douglas College."
+				+ "Dilraj Manj has created, but not published a fitness app that helps users make accounts and track their daily calorie intakes."
+				+ "He is alsways looking to learn new ways to improve. No matter the challenge presented Dilraj will always keep trying to find a solution.");
+		model.addAttribute("dilrajObject", dilrajObject);
+		return "dilraj_dma_19";
+	}
+	
+	
 
 }
